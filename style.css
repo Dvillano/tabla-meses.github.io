@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9dbeb9;
+    color: #194350;
+}
+
+h1 {
+    font-size: 50px;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+tr {
+    opacity: 0;
+}
+
+th {
+    background-color: papayawhip;
+}
+
+.botonera {
+    margin-top: 25px;
+}
+
+.fadeInEffect {
+    opacity: 1;
+    transition: visibility 1s linear 1s, opacity 2000ms;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 40px;
+    
+    
+}
+
